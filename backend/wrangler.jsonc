@@ -1,0 +1,29 @@
+{
+	"name": "backend",
+	"main": "src/index.ts",
+	"compatibility_date": "2024-04-03",
+	"kv_namespaces": [
+		
+		{
+			"binding": "USER_PROFILES",
+			"id": "6cbd888791694f7790de79607a8b4731",
+			"remote": true
+		}
+	],
+	"durable_objects": {
+		"bindings": [
+			{
+				"name": "BOX_ROOM",
+				"class_name": "BoxRoom"
+			}
+		]
+	},
+	"migrations": [
+		{
+			"tag": "v1",
+			"new_classes": [
+				"BoxRoom"
+			]
+		}
+	]
+}
